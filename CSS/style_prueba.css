@@ -67,7 +67,7 @@ header .photography {
   height: 150px;
   margin: 0 auto; /* Centrado */
   border-radius: 100px;
-  background-image: url("/sources/images/photography.png");
+  background-image: url("Portafolio/sources/images/photography.png");
   background-repeat: no-repeat; /* para que no se repita para rellenar el espacio */
   background-position: center; /* imagen al centro */
   background-size: contain;
