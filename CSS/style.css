@@ -275,7 +275,7 @@ main .box-portafolio{
 main #portafolio div div{
   width: 200px;
   height: 250px;
-  margin: 1.2rem 2.2rem;
+  margin: 1.2rem 2.5rem;
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.25s;
@@ -291,6 +291,7 @@ main #portafolio div div:hover{
   font-size: 1.4rem;
   width: 250px;
   height: 300px;
+  margin: 1.2rem 0;
   overflow-y : hidden;
 }
 
