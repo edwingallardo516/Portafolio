@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portafolio Edwin Gallardo </title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/4a8953962c.js" crossorigin="anonymous"></script>
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
     
@@ -122,28 +126,60 @@
         <section id="contacto">
             <h1 class="title-section">Contacto</h1>
             <hr class="hr-secundary">
-            <ul>
-                <li>edwingallardo516@gmail.com</li>
-                <li>+57 3148230536</li>  
-            </ul>
-            <p>Tambien puedes encontrarme en redes sociales</p>
-            <div>
-                <ul class="networks">
-                    <!-- Facebook -->
-                    <li>
-                        <a href="">
-                            <img src="http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png">
-                        </a>
-                    </li>
-                    <!-- linkedin -->
-                    <li>
-                        <a href="">
-                            <img src="/sources/images/LINKEDIN-logo.png">
-                        </a>
-                    </li>
-                </ul>
-            </div>
 
+            <div class="container-contacto">
+                <div class="form-contacto">
+                    <h4> Escribeme </h4>
+                    <form action="/app/correos.php" method="POST">
+                        <p>
+                            <label for="nombre"> Nombre: </label>
+                            <input type="text" name="nombre" id="nombre"> 
+                        </p>
+                        
+                        <p>
+                            <label> Correo electrónico: </label>
+                            <input type="email" name="email" id="email">
+                        </p>
+
+                        <p>
+                            <label> Mensaje: </label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="3"></textarea>
+                        </p>
+
+                        <p>
+                            <button type="submit">
+                                Enviar
+                            </button>
+                        </p>
+
+                    </form>
+                </div>
+
+                <div class="info">
+                    <h4> Más información </h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +57 3148230536 </li>
+                        <li><i class="fas fa-envelope"></i> edwingallardo516@gmail.com </li>
+                    </ul>
+
+                    <ul class="networks">
+                        <!-- Instagram -->
+                        <li>
+                            <a href="https://www.instagram.com/odrallag_79/" target="_blank">
+                                <img src="/sources/images/logo-Instagram.png">
+                            </a>
+                        </li>
+                        <!-- linkedin -->
+                        <li>
+                            <a href="https://www.linkedin.com/in/edwingallardo516" target="_blank">
+                                <img src="./sources/images/LINKEDIN-logo.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            
         </section>
     </footer>
 
