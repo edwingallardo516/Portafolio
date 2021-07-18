@@ -242,6 +242,10 @@ main .python {
   background-image: url("../sources/images/icon-python.png");
 }
 
+main .git {
+  background-image: url("../sources/images/icon-git.png");
+}
+
 main .opencv {
   background-image: url("../sources/images/icon-opencv.png");
 }
