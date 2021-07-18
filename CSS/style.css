@@ -219,35 +219,35 @@ main .box-icons {
 }
 
 main .html {
-  background-image: url("https://github.com/edwingallardo516/Portafolio/blob/gh-pages/sources/images/icon-html.png?raw=true");
+  background-image: url("../sources/images/icon-html.png");
 }
 
 main .css {
-  background-image: url("https://github.com/edwingallardo516/Portafolio/blob/gh-pages/sources/images/icon-css.png?raw=true");
+  background-image: url("../sources/images/icon-css.png");
 }
 
 main .javascript {
-  background-image: url("./sources/images/icon-javascript.png");
+  background-image: url("../sources/images/icon-javascript.png");
 }
 
 main .php {
-  background-image: url("https://github.com/edwingallardo516/Portafolio/blob/gh-pages/sources/images/icon-php.png?raw=true");
+  background-image: url("../sources/images/icon-php.png");
 }
 
 main .laravel {
-  background-image: url("https://github.com/edwingallardo516/Portafolio/blob/gh-pages/sources/images/icon-laravel.png?raw=true");
+  background-image: url("../sources/images/icon-laravel.png");
 }
 
 main .python {
-  background-image: url("https://github.com/edwingallardo516/Portafolio/blob/gh-pages/sources/images/icon-python.png?raw=true");
+  background-image: url("../sources/images/icon-python.png");
 }
 
 main .opencv {
-  background-image: url("https://github.com/edwingallardo516/Portafolio/blob/gh-pages/sources/images/icon-opencv.png?raw=true");
+  background-image: url("../sources/images/icon-opencv.png");
 }
 
 main .pandas {
-  background-image: url("https://github.com/edwingallardo516/Portafolio/blob/gh-pages/sources/images/icon-pandas.png?raw=true");
+  background-image: url("../sources/images/icon-pandas.png");
 }
 
 /*----------- PORTAFOLIO ----------------------------- */
