@@ -25,9 +25,9 @@
             <div class="photography" ></div>
 
             <div class="name-work-container">
-                <h1 id="name-work"> Edwin Gallardo</h1>
+                <h1 class="name-work"> Edwin Gallardo</h1>
                 <hr class="hr-primary">
-                <h1 id="name-work"> Desarrollador Web Full Stack</h1>
+                <h1 class="name-work" id="title"> Desarrollador Web Full Stack</h1>
             </div>
         </section>
 
@@ -35,15 +35,22 @@
         <nav id="nav-bar">
             <ul class="navi-options">
                 <li>
-                    <a href="#habilidades">Habilidades</a>
+                    <a href="#habilidades" id="nav0"> Habilidades </a>
                 </li>
                 <li>
-                    <a href="#portafolio">Portafolio</a>
+                    <a href="#portafolio" id="nav1"> Portafolio </a>
                 </li>
                 <li>
-                    <a href="#contacto">Contacto</a>
+                    <a href="#contacto" id="nav2"> Contacto </a>
                 </li>
-                
+                <li class="lenguage">
+                    <span><i class="fas fa-language" aria-hidden="true"></i></span>
+                    <span>
+                        <div class="option-len" onclick="cambiarIdioma('en')"> EN </div>
+
+                        <div class="option-len" onclick="cambiarIdioma('es')"> ES </div>
+                    </span>
+                </li>
             </ul>
         </nav>
     
@@ -52,8 +59,7 @@
     <!----------------------------------- Main --------------------------------------------->
     <main>
         <section id="habilidades">
-
-            <h1 class="title-section">Habilidades</h1>
+            <h1 class="title-section" id="sec0">Habilidades</h1>
             <hr class="hr-secundary">
             <div class="box-icons">
                 <div class="html"></div>
@@ -69,7 +75,7 @@
         </section>
 
         <section id="portafolio">
-            <h1 class="title-section">Portafolio</h1>
+            <h1 class="title-section" id="sec1">Portafolio</h1>
             <hr class="hr-primary">
             <div class="box-portafolio">
                 <!-- Plataforma E-Learning -->
@@ -77,10 +83,10 @@
                     <a href="https://plataforma-cursos.herokuapp.com/" target="_blank">
                         <img src="./sources/images/card-plataforma-cursos.jpg">
                     </a>
-                    <h4> Plataforma e-learning </h4>
-                    <p> Desarrollo con PHP y Laravel 8 </p>
+                    <h4 id="title-card0"> Plataforma e-learning </h4>
+                    <p id="p-card0"> Desarrollo con PHP y Laravel 8 </p>
                     <ul>
-                        <li><a href="https://github.com/edwingallardo516/Plataforma-de-Cursos.git" target="_blank">Ver código</a></li>
+                        <li><a href="https://github.com/edwingallardo516/Plataforma-de-Cursos.git" target="_blank" id="vw-code1">Ver código</a></li>
                     </ul>
 
                 </div>
@@ -90,10 +96,10 @@
                     <a href="https://plataforma-posts.herokuapp.com/" target="_blank">
                         <img src="./sources/images/card-anuncios.jpg">
                     </a>
-                    <h4> Plataforma de anuncios </h4>
-                    <p> Desarrollo con PHP y Laravel 8 </p>
+                    <h4 id="title-card1"> Plataforma de anuncios </h4>
+                    <p id="p-card1"> Desarrollo con PHP y Laravel 8 </p>
                     <ul>
-                        <li><a href="https://github.com/edwingallardo516/plataforma-posts.git" target="_blank">Ver código</a></li>
+                        <li><a href="https://github.com/edwingallardo516/plataforma-posts.git" target="_blank" id="vw-code2">Ver código</a></li>
                     </ul>
                 </div>
 
@@ -102,8 +108,8 @@
                     <a href="https://colab.research.google.com/drive/1fR4RNheM7MZ65LROyPkv8yJiNz6ueYJZ?usp=sharing" target="_blank">
                         <img src="./sources/images/card-modelado.jpg">
                     </a>
-                    <h4> Modelado matemático </h4>
-                    <p> Matemática simbólica con Python </p>
+                    <h4 id="title-card2"> Modelado matemático </h4>
+                    <p id="p-card2"> Matemática simbólica con Python </p>
                 </div>
 
                 <!-- Visión Artificial -->
@@ -111,49 +117,48 @@
                     <a href="https://colab.research.google.com/drive/19KMznAZAPfUWrSOQs3z5GMdLqciAt1lJ?usp=sharing" target="_blank">
                         <img src="./sources/images/card-vision-artificial.jpg">
                     </a>
-                    <h4> Visión artificial </h4>
-                    <p> Desarrollo con Python y OpenCV </p>
+                    <h4 id="title-card3"> Visión artificial </h4>
+                    <p id="p-card3"> Desarrollo con Python y OpenCV </p>
                 </div>
 
                 <!-- Análisis de datos -->
                 <div class="aplicacion">
-                    <a href="" target="_blank">
+                    <a href="https://colab.research.google.com/drive/1GqmlxZr3o1jolmdQs4ZdVM-nPG-69Vlr?usp=sharing" target="_blank">
                         <img src="./sources/images/card-analisis-datos.jpg">
                     </a>
-                    <h4> Análisis de datos </h4>
-                    <p> Desarrollo con Python y Pandas </p>
+                    <h4 id="title-card4"> Análisis de datos </h4>
+                    <p id="p-card4"> Desarrollo con Python y Pandas </p>
                 </div>
-
             </div>
         </section>
     </main>
 
     <footer>
         <section id="contacto">
-            <h1 class="title-section">Contacto</h1>
+            <h1 class="title-section" id="sec2">Contacto</h1>
             <hr class="hr-secundary">
 
             <div class="container-contacto">
                 <div class="form-contacto">
-                    <h4> Escríbeme </h4>
+                    <h4 id="write"> Escríbeme </h4>
                     <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdmEc_PV7vIsMK_sR7uIOswCZSQd94-R2n5_LfQNt8vw0kK3Q/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
                         <p>
-                            <label> Nombre: </label>
+                            <label id="form0"> Nombre: </label>
                             <input type="text" name="entry.2005620554" id="entry.2005620554" required> 
                         </p>
                         
                         <p>
-                            <label> Correo electrónico: </label>
+                            <label id="form1"> Correo electrónico: </label>
                             <input type="email" name="entry.1045781291" id="entry.1045781291" required>
                         </p>
 
                         <p>
-                            <label> Mensaje: </label>
+                            <label id="form2"> Mensaje: </label>
                             <textarea name="entry.374032883" id="entry.374032883" cols="30" rows="3" required></textarea>
                         </p>
 
                         <p>
-                            <button type="submit">
+                            <button type="submit" id="submit">
                                 Enviar
                             </button>
                         </p>
@@ -163,12 +168,12 @@
                 </div>
 
                 <div class="info">
-                    <h4> Más información </h4>
+                    <h4 id="info"> Más información </h4>
                     <ul>
                         <li><i class="fas fa-phone"></i> +57 3148230536 </li>
                         <li><i class="fas fa-envelope"></i> edwingallardo516@gmail.com </li>
                         <li><i class="fas fa-download"></i>
-                            <a href="./sources/pdf/CV Edwin Gallardo.pdf" download="Edwin Gallardo CV">
+                            <a href="./sources/pdf/CV Edwin Gallardo.pdf" download="Edwin Gallardo CV" id="down">
                                 Descargar CV
                             </a>
                         </li>
@@ -196,11 +201,12 @@
     </footer>
 
     <!-- <script src="assets/js/jquery.min.js"></script> -->
-    
     <script src="./js/helpers.js"></script>
     <script src="./js/correo.js"></script>
+    <script src="./js/idioma.js"></script>
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript">var submitted=false;</script>
+
     <script type="text/javascript">
     $('#gform').on('submit', function(e) {
     $('#gform *').fadeOut(1000);
