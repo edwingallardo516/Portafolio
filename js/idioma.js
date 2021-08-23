@@ -6,13 +6,13 @@ function cambiarIdioma(elemento)
 
 	// Barra de Navegación	
     var es_nav=['Habilidades','Portafolio','Contacto'];
-	var en_nav=['Abilities','Briefcase','Contact'];
+	var en_nav=['Skills','Portfolio','Contact'];
 
     // Portafolio-Cards
-    var es_title_cards=['Plataforma e-learning','Plataforma de anuncios','Modelado matemático','Visión artificial','Análisis de datos'];
-    var en_title_cards=['Platform e-learning','Ads platform','Mathematical modeling','Artificial vision','Analysis of data'];
-    var es_p_cards=['Desarrollo con PHP y Laravel 8','Desarrollo con PHP y Laravel 8','Matemática simbólica con Python','Desarrollo con Python y OpenCV','Desarrollo con Python y Pandas'];
-    var en_p_cards=['Development with PHP and Laravel 8','Development with PHP and Laravel 8','Symbolic math with Python','Development with Python and OpenCV','Development with Python and Pandas'];
+    var es_title_cards=['Server Login','Plataforma e-learning','Biblioteca Digital','Portafolio','Modelado Matemático','Visión artificial','Análisis de datos'];
+    var en_title_cards=['Server Login','Platform e-learning','Digital Library','Portfolio','Mathematical modeling','Artificial vision','Analysis of data'];
+    var es_p_cards=['Desarrollo Node.js y mongoDB','Desarrollo con PHP y Laravel 8','Desarrollo con Node.js, mongoDB y GraphQL','Desarrollo con HTML ,CSS Y JavaScript','Matemática simbólica con Python','Desarrollo con Python y OpenCV','Desarrollo con Python y Pandas'];
+    var en_p_cards=['Development with Node.js y mongoDB','Development with PHP and Laravel 8','Development with Node.js, mongoDB y GraphQL','Development with HTML, CSS Y JavaScript','Symbolic math with Python','Development with Python and OpenCV','Development with Python and Pandas'];
     var es_code = 'Ver código';
     var en_code = 'View code';
 
@@ -40,11 +40,16 @@ function cambiarIdioma(elemento)
         document.getElementById("title-card2").innerHTML = en_title_cards[2];
         document.getElementById("title-card3").innerHTML = en_title_cards[3];
         document.getElementById("title-card4").innerHTML = en_title_cards[4];
+        document.getElementById("title-card5").innerHTML = en_title_cards[5];
+        document.getElementById("title-card6").innerHTML = en_title_cards[6];
+        console.log(en_p_cards)
         document.getElementById("p-card0").innerHTML = en_p_cards[0];
         document.getElementById("p-card1").innerHTML = en_p_cards[1];
         document.getElementById("p-card2").innerHTML = en_p_cards[2];
         document.getElementById("p-card3").innerHTML = en_p_cards[3];
         document.getElementById("p-card4").innerHTML = en_p_cards[4];
+        document.getElementById("p-card5").innerHTML = en_p_cards[5];
+        document.getElementById("p-card6").innerHTML = en_p_cards[6];
         document.getElementById("vw-code1").innerHTML = en_code;
         document.getElementById("vw-code2").innerHTML = en_code;
 
@@ -78,11 +83,15 @@ function cambiarIdioma(elemento)
         document.getElementById("title-card2").innerHTML = es_title_cards[2];
         document.getElementById("title-card3").innerHTML = es_title_cards[3];
         document.getElementById("title-card4").innerHTML = es_title_cards[4];
+        document.getElementById("title-card5").innerHTML = es_title_cards[5];
+        document.getElementById("title-card6").innerHTML = es_title_cards[6];
         document.getElementById("p-card0").innerHTML = es_p_cards[0];
         document.getElementById("p-card1").innerHTML = es_p_cards[1];
         document.getElementById("p-card2").innerHTML = es_p_cards[2];
         document.getElementById("p-card3").innerHTML = es_p_cards[3];
         document.getElementById("p-card4").innerHTML = es_p_cards[4];
+        document.getElementById("p-card5").innerHTML = es_p_cards[5];
+        document.getElementById("p-card6").innerHTML = es_p_cards[6];
         document.getElementById("vw-code1").innerHTML = es_code;
         document.getElementById("vw-code2").innerHTML = es_code;
 

@@ -267,6 +267,18 @@ main .javascript {
   background-image: url("../sources/images/icon-javascript.png");
 }
 
+main .nodejs {
+  background-image: url("../sources/images/icon-nodejs.png");
+}
+
+main .mongodb {
+  background-image: url("../sources/images/icon-mongodb.png");
+}
+
+main .graphql {
+  background-image: url("../sources/images/icon-graphql.png");
+}
+
 main .php {
   background-image: url("../sources/images/icon-php.png");
 }
